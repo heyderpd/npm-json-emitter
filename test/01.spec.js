@@ -1,10 +1,8 @@
-// import { file, merge } from '../dist/modules'
 import { parse, SyntaxError } from '../dist/json-emitter-parser'
 
-// console.log(file, merge)
-const str = `{"a":[1,2,3], "b": (file, "xablau") }`
+const str = `{"a":[1,2,3], "b": (file, "xablau"), "c": (merge, 123, 456, 79) }`
+console.log('json:', str)
 const json = parse(str)
-console.log(str, '=>', json)
+console.log('=>', json)
 
-// evaluete use:
-// printf('main text $1', xabla);
+// evaluete use: printf('main text $1', xabla);

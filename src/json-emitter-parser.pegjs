@@ -186,7 +186,7 @@ emitter
           result.push(element)
         });
 
-        console.log(head, result, 1320, head(result))
+        // console.log(head, result, 1320, head(result))
 
         return head(result);
       }

@@ -1,2 +1,3 @@
-export const file = a => `file($a)`
-export const merge = a => `merge($a)`
+export const file = args => `file(${args})`
+
+export const merge = args => `merge(${args.join('_')})`
