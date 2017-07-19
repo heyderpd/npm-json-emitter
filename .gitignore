@@ -6,3 +6,5 @@ dist/*
 # test/*
 
 package-lock.json
+
+src/json-emitter-parser.js
