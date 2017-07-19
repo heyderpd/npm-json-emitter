@@ -1,4 +1,4 @@
-const parse = x=>x
+import { parse, SyntaxError } from './json-emitter-parser'
 
 const findvar = /(.*?(.?))\$(\d+)|.+/gm
 
